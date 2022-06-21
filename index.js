@@ -31,9 +31,9 @@ for (let i = 0; i < destArray.length; i++) {
 
 
 function sendMail() {
-    var link = "mailto:thesvk1@gmail.com"
+    var link = "mailto:anasuya@morpheousplanners.com"
              + "?cc=soubhik@morpheousplanners.com"
-             + "&subject=" + encodeURIComponent("This is my subject")
+             + "&subject=" + encodeURIComponent("Want to get in touch.")
              + "&body=" + encodeURIComponent(document.getElementById('text').value);
     
     window.location.href = link
