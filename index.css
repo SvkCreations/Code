@@ -86,6 +86,7 @@ body{
 .gallery{
     background-position: center;
     height: 500px;
+    border: none;
 }
 
 .content{

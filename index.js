@@ -15,13 +15,6 @@ cardsArray.forEach(element => {
     }
 });
 
-let gallery = document.querySelectorAll('.gallery')
-galleryArray = Array.from(gallery)
-for (let i = 0; i < galleryArray.length; i++) {
-    let element = galleryArray[i];
-    element.style.cssText = `background-image:url('Images/Gallery/Gallery${i+1}.jpg');background-size:cover;`
-}
-
 let destination = document.querySelectorAll('.destination')
 destArray = Array.from(destination)
 for (let i = 0; i < destArray.length; i++) {
