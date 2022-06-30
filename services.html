@@ -10,6 +10,7 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@animxyz/core">
 
 </head>
 <style>
@@ -63,44 +64,65 @@
             </div>
         </nav>
 
-        <div class="offer">
-            <h2 class="display-6 fw-bold mt-5" style="color: #B8872A;">What we offer</h2>
-            <img src="Images/underline.png" alt="" width="500" class="img-fluid underline">
-            <p class="lead mt-3 mb-5">Our services range from pre-wedding planning to booking honeymoon destinations. We
-                cater to all things wedding- vendor selection, wedding invitations, guest management, event planning,
-                transportation, food & beverages, bridal trousseau & makeup, security, entertainment, car decor,
-                customized
-                stationery, and much much more!</p>
-        </div>
-        <div class="row align-items-md-stretch gap-3 services">
-            <div class="col-md-3 cards" onclick="document.location='services/preevent.html'">
-                <p class="lead fw-bold card-title">Pre-event Management</p>
-            </div>
-            <div class="col-md-4 cards" onclick="document.location='services/mainevent.html'">
-                <p class="lead fw-bold card-title">Main Event Planning</p>
-            </div>
-            <div class="col-md-4 cards" onclick="document.location='services/hotels.html'">
-                <p class="lead fw-bold card-title">Choosing Hotels & Themes</p>
-            </div>
-            <div class="col-md-3 cards" onclick="document.location='services/transport.html'">
-                <p class="lead fw-bold card-title">Transportaion</p>
-            </div>
-            <div class="col-md-4 cards" onclick="document.location='services/culinary.html'">
-                <p class="lead fw-bold card-title">Culinary Services</p>
-            </div>
-            <div class="col-md-4 cards" onclick="document.location='services/entertainment.html'">
-                <p class="lead fw-bold card-title">Entertainment</p>
-            </div>
-            <div class="col-md-3 cards" onclick="document.location='services/rituals.html'">
-                <p class="lead fw-bold card-title">All Wedding Related Rituals</p>
-            </div>
-            <div class="col-md-4 cards" onclick="document.location='services/ancillary.html'">
-                <p class="lead fw-bold card-title">Ancillary Services</p>
-            </div>
-            <div class="col-md-4 cards" onclick="document.location='services/security.html'">
-                <p class="lead fw-bold card-title">Security</p>
-            </div>
+        <div class="page-wrap xyz-in">
+            <div class="offer">
+                <h2 class="display-6 fw-bold mt-5 page-hero" xyz="fade small stagger ease-out-back" style="color: #B8872A;">What we offer</h2>
+                <img src="Images/underline.png" alt="" width="500" class="img-fluid underline hero-logo xyz-nested">
+                <p class="lead mt-3 mb-5 hero-text xyz-nested">Our services range from pre-wedding planning to booking honeymoon
+                    destinations. We
+                    cater to all things wedding- vendor selection, wedding invitations, guest management, event
+                    planning,
+                    transportation, food & beverages, bridal trousseau & makeup, security, entertainment, car decor,
+                    customized
+                    stationery, and much much more!<br><br>
+                    We understand you, both your joys and your fears; and that is why we ensure to be personally
+                    invested in
+                    all your social events.
 
+                    Our standards improve with every event we do and we strive for only one thing- to be better than
+                    yesterday and prepared for tomorrow!</p>
+            </div>
+        </div>
+
+        <div class="page-features" xyz="fade flip-down stagger duration-10 delay-3 ease-out-back">
+            <div class="row align-items-md-stretch gap-3 services page-wrap xyz-in">
+
+                <div class="col-md-3 cards feature-item xyz-nested"
+                    onclick="document.location='services/preevent.html'">
+                    <p class="lead fw-bold card-title">Pre-event Management</p>
+                </div>
+                <div class="col-md-4 cards feature-item xyz-nested"
+                    onclick="document.location='services/mainevent.html'">
+                    <p class="lead fw-bold card-title">Main Event Planning</p>
+                </div>
+                <div class="col-md-4 cards feature-item xyz-nested" onclick="document.location='services/hotels.html'">
+                    <p class="lead fw-bold card-title">Choosing Hotels & Themes</p>
+                </div>
+                <div class="col-md-3 cards feature-item xyz-nested"
+                    onclick="document.location='services/transport.html'">
+                    <p class="lead fw-bold card-title">Transportaion</p>
+                </div>
+                <div class="col-md-4 cards feature-item xyz-nested"
+                    onclick="document.location='services/culinary.html'">
+                    <p class="lead fw-bold card-title">Culinary Services</p>
+                </div>
+                <div class="col-md-4 cards feature-item xyz-nested"
+                    onclick="document.location='services/entertainment.html'">
+                    <p class="lead fw-bold card-title">Entertainment</p>
+                </div>
+                <div class="col-md-3 cards feature-item xyz-nested" onclick="document.location='services/rituals.html'">
+                    <p class="lead fw-bold card-title">All Wedding Related Rituals</p>
+                </div>
+                <div class="col-md-4 cards feature-item xyz-nested"
+                    onclick="document.location='services/ancillary.html'">
+                    <p class="lead fw-bold card-title">Ancillary Services</p>
+                </div>
+                <div class="col-md-4 cards feature-item xyz-nested"
+                    onclick="document.location='services/security.html'">
+                    <p class="lead fw-bold card-title">Security</p>
+                </div>
+
+            </div>
         </div>
 
 
@@ -183,13 +205,13 @@
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3"><a class="text-muted" href="http://www.morpheousplanners.com"><span class="iconify"
-                            data-icon="dashicons:admin-site-alt3"
-                            style="color: #b8872a; font-size: 32px;"></span></a></li>
-                <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/kanasaweddings"><span class="iconify"
-                            data-icon="akar-icons:facebook-fill"
+                            data-icon="dashicons:admin-site-alt3" style="color: #b8872a; font-size: 32px;"></span></a>
+                </li>
+                <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/kanasaweddings"><span
+                            class="iconify" data-icon="akar-icons:facebook-fill"
                             style="color: #b8872a; font-size: 30px;"></span></a></li>
-                <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/kanasa.weddings/?hl=en"><span class="iconify"
-                            data-icon="akar-icons:instagram-fill"
+                <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/kanasa.weddings/?hl=en"><span
+                            class="iconify" data-icon="akar-icons:instagram-fill"
                             style="color: #b8872a; font-size: 30px;"></span></a></li>
             </ul>
         </footer>

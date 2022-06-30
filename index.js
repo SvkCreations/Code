@@ -23,14 +23,18 @@ for (let i = 0; i < destArray.length; i++) {
 }
 
 
-function sendMail() {
-    var link = "mailto:anasuya@morpheousplanners.com"
-             + "?cc=soubhik@morpheousplanners.com"
+function sendMail(e) {
+    var link = "mailto:contact@morpheousplanners.com"
+             + "?cc=anasuya@morpheousplanners.com"
              + "&subject=" + encodeURIComponent("Want to get in touch.")
              + "&body=" + encodeURIComponent(document.getElementById('text').value);
     
     window.location.href = link
 }
+
+party.confetti(runButton, {
+	count: party.variation.range(20, 40),
+});
 
 
 

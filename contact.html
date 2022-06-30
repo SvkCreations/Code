@@ -80,14 +80,14 @@
                         <textarea class="form-control rounded-0" id="text" rows="5"
                             placeholder="Enter your message..."></textarea>
                     </div>
-                    <button class="btn mt-3 mb-5 send" onclick="sendMail()">Send</button>
+                    <button class="btn mt-3 mb-5 send" onmousedown="party.confetti(this); sendMail()">Send</button>
                 </form>
                 <div class="row d-flex align-items-center justify-content-center">
                     <div class="col-5" style="height: 2px; background-color: #B8872A;"></div>
                     <div class="col-2 text-center fw-bold" style="color: #B8872A;">OR</div>
                     <div class="col-5" style="height: 2px; background-color: #B8872A;"></div>
                 </div>
-                <div class="call my-5">or Call: +91 98747 818787</div>
+                <div class="call my-5"><a href="tel:+91 9874781878" class="text-white" style="text-decoration: none;">or Call: +91 98747 81878</a></div>
                 <p class="lead text-center">Follow us: <a href="https://www.morpheousplanners.com"><span class="iconify mx-3" data-icon="dashicons:admin-site-alt3"
                     style="color: #b8872a; font-size: 32px;"></span></a><a href="https://www.facebook.com/kanasaweddings"><span class="iconify"
                     data-icon="akar-icons:facebook-fill" style="color: #b8872a; font-size: 30px;"></span></a><a href="https://www.instagram.com/kanasa.weddings/?hl=en"><span
@@ -130,7 +130,7 @@
         crossorigin="anonymous"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
     <script src="index.js"></script>
 </body>
 
